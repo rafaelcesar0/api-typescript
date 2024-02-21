@@ -1,3 +1,7 @@
 import { server } from './server/Server';
 
-server.listen(3000, () => console.log('App rodando!'));
+const PORT = process.env.PORT || 3000;
+server.listen(PORT     , () => {
+  console.clear();
+  console.log(`Listening on http://localhost:${PORT} ...`);
+});
