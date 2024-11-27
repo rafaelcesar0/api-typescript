@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bun": "bun src/index.ts",
     "dev": "npx ts-node-dev src/index.ts",
     "test": "jest"
   },
